@@ -1,0 +1,58 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+enum OrderStatus {
+  PENDING
+  PROCESSING
+  GENERATING
+  WAITING_PAYMENT
+  PAID
+  DELIVERED
+  FAILED
+}
+
+enum PaymentStatus {
+  PENDING
+  APPROVED
+  FAILED
+  REFUNDED
+  CANCELLED
+}
+
+model Order {
+  id                String      @id @default(uuid())
+  status            OrderStatus @default(PENDING)
+  paymentId         String?     @unique
+  stickerType       String
+  promptName        String
+  playerName        String?
+  country           String?
+  number            String?
+  position          String?
+  imageOriginalPath String?
+  imagePreviewPath  String?
+  payment           Payment?    @relation("OrderToPayment")
+  createdAt         DateTime    @default(now())
+  updatedAt         DateTime    @updatedAt
+}
+
+model Payment {
+  id               String        @id @default(uuid())
+  gatewayPaymentId String?       @unique
+  orderId          String        @unique
+  status           PaymentStatus @default(PENDING)
+  amount           Int
+  currency         String
+  provider         String
+  providerPayload  Json?
+  paidAt           DateTime?
+  createdAt        DateTime      @default(now())
+  updatedAt        DateTime      @updatedAt
+  order            Order         @relation("OrderToPayment", fields: [orderId], references: [id])
+}

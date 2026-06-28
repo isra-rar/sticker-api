@@ -1,0 +1,8 @@
+Create a legendary silver-themed football sticker from this photo.
+Use silver shine, subtle particles, and transparent background.
+Name: {{name}}
+Country: {{country}}
+Number: {{number}}
+Position: {{position}}
+Team: {{team}}
+Overall: {{overall}}

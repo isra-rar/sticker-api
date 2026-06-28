@@ -1,32 +1,32 @@
+const OrderService = require("../services/order.service");
+
 exports.generateSticker = async (req, res) => {
     try {
-
-        if (!req.file) {
-            return res.status(400).json({
-                success: false,
-                message: "Nenhuma imagem enviada."
-            });
-        }
-
-        console.log(req.file);
-
-        console.log(req.body);
-
-        return res.json({
-            success: true,
-            message: "Imagem recebida com sucesso!",
-            file: req.file.filename,
-            data: req.body
+        const { order, payment } = await OrderService.createAndGenerate({
+            file: req.file,
+            payload: req.body
         });
 
-    } catch (err) {
+        const previewUrl = `${req.protocol}://${req.get("host")}/${order.imagePreviewPath}`;
 
+        return res.status(200).json({
+            success: true,
+            message: "Pedido criado e figurinha gerada com sucesso.",
+            orderId: order.id,
+            orderStatus: order.status,
+            paymentId: payment.id,
+            paymentStatus: payment.status,
+            previewImagePath: order.imagePreviewPath,
+            previewImageUrl: previewUrl
+        });
+    } catch (err) {
         console.error(err);
 
-        return res.status(500).json({
+        return res.status(err.status || 500).json({
             success: false,
-            message: err.message
+            code: err.code || "INTERNAL_ERROR",
+            message: err.message || "Erro interno ao gerar figurinha.",
+            details: process.env.NODE_ENV === "development" ? err.details : undefined
         });
-
     }
 };
