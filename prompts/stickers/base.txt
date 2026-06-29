@@ -1,139 +1,156 @@
-Voce recebera DUAS imagens.
+# FIGURINHA NORMAL
 
-Imagem 1:
-Template oficial da figurinha.
+Você receberá DUAS imagens.
 
-Imagem 2:
-Foto do personagem.
+## IMAGEM 1 (OBRIGATÓRIA)
 
-Sua tarefa e editar exclusivamente o template recebido.
+A primeira imagem é o TEMPLATE ORIGINAL da figurinha.
 
-NUNCA recrie uma nova figurinha.
+Ela é a referência absoluta para:
 
-Sempre utilize o template enviado como base.
+* layout;
+* composição;
+* enquadramento;
+* escala;
+* posição do personagem;
+* tamanho do personagem;
+* perspectiva;
+* iluminação;
+* fundo;
+* molduras;
+* cores;
+* tipografia;
+* caixas de informação.
 
-Seu objetivo e substituir apenas o personagem e as informacoes variaveis, preservando toda a identidade visual do modelo.
+**A primeira imagem nunca deve ser reinterpretada ou recriada.**
 
-A figurinha final deve parecer um produto oficial de colecao, pronto para impressao.
+Ela deve ser editada.
 
---------------------------------------------------
+---
 
-## TEMPLATE
+## IMAGEM 2
 
-Preserve exatamente:
+A segunda imagem contém apenas a identidade visual do personagem.
 
-- formato vertical
-- molduras
-- composicao
-- alinhamentos
-- iluminacao do template
-- sombras
-- brilhos
-- efeitos graficos
-- caixas de informacao
-- posicao dos elementos
-- estilo visual
-- paleta de cores
-- texturas
-- bordas
-- fundo
+Utilize exclusivamente:
 
-Nunca alterar o layout.
+* rosto;
+* cabelo;
+* barba;
+* olhos;
+* nariz;
+* boca;
+* expressão;
+* tom de pele;
+* características físicas.
 
-Nunca mover elementos.
+Nunca copie:
 
-Nunca remover detalhes graficos.
+* enquadramento;
+* posição;
+* distância da câmera;
+* fundo;
+* iluminação;
+* roupas.
 
-Nunca criar um template diferente.
+Esses elementos devem seguir a primeira imagem.
 
---------------------------------------------------
+---
 
-## PERSONAGEM
+# OBJETIVO
 
-Substitua apenas o personagem principal.
+Editar exclusivamente o template.
+
+A figurinha final deve parecer exatamente a figurinha original, apenas personalizada.
+
+Ela deve dar a impressão de que o personagem sempre fez parte daquele template.
+
+Nunca criar uma nova figurinha.
+
+Nunca redesenhar o template.
+
+Nunca alterar o design original.
+
+---
+
+# COMPOSIÇÃO (REGRA MAIS IMPORTANTE)
+
+O enquadramento do personagem deve ser rigorosamente igual ao da primeira imagem.
+
+A altura da cabeça deve permanecer igual.
+
+A largura dos ombros deve permanecer igual.
+
+A posição dos ombros deve permanecer igual.
+
+A distância entre a cabeça e o topo da figurinha deve permanecer igual.
+
+O espaço lateral deve permanecer igual.
+
+A área ocupada pelo personagem deve permanecer praticamente idêntica ao template.
+
+Não ampliar.
+
+Não reduzir.
+
+Não aproximar.
+
+Não afastar.
+
+Não mover.
+
+Utilize a primeira imagem como referência absoluta de escala.
+
+---
+
+# PERSONAGEM
+
+Substitua apenas o personagem.
 
 Preserve completamente:
 
-- rosto
-- cabelo
-- olhos
-- nariz
-- boca
-- expressao facial
-- idade aparente
-- tom de pele
-- caracteristicas fisicas
-- identidade da pessoa
+* identidade;
+* rosto;
+* cabelo;
+* olhos;
+* nariz;
+* boca;
+* barba;
+* expressão;
+* idade aparente;
+* características físicas.
 
 Nunca criar caricaturas.
 
-Nunca alterar o genero.
+Nunca alterar o gênero.
 
-Nunca modificar a aparencia.
+Nunca alterar a identidade da pessoa.
 
-Caso a foto seja:
+O resultado deve parecer uma fotografia profissional.
 
-- pessoa
+---
 
-- casal
+# ROUPA
 
-- crianca
+Caso necessário, adaptar para um uniforme esportivo profissional.
 
-- pet
+O uniforme deve parecer real.
 
-preservar totalmente sua identidade.
+Não utilizar logotipos protegidos por direitos autorais.
 
---------------------------------------------------
+Não utilizar escudos oficiais.
 
-## ENQUADRAMENTO
+Caso existam logotipos no template, substituí-los por elementos gráficos neutros mantendo exatamente o mesmo espaço.
 
-Centralizar o personagem.
+---
 
-Adaptar automaticamente ao espaco disponivel.
+# TEXTOS
 
-Evitar cortes no rosto.
-
-Caso o template utilize meio corpo ou corpo inteiro, adaptar naturalmente.
-
---------------------------------------------------
-
-## ROUPA
-
-Caso necessario, adaptar para um uniforme esportivo premium.
-
-O uniforme deve parecer profissional.
-
-Nunca utilizar logotipos protegidos por direitos autorais.
-
-Nunca utilizar escudos oficiais.
-
-Caso existam logotipos no template original, substitui-los por elementos graficos neutros mantendo o mesmo espaco visual.
-
---------------------------------------------------
-
-## TEXTOS
-
-Atualizar utilizando os valores abaixo.
+Atualize apenas os seguintes campos.
 
 Nome
 
 {{name}}
-
-Numero
-
-{{number}}
-
-Posicao
-
-{{position}}
-
-Pais
-
-{{country}}
-
-Time
-
-{{team}}
 
 Nascimento
 
@@ -147,49 +164,57 @@ Peso
 
 {{weight}}
 
-Texto inferior
+Posição
 
-{{bottom_text}}
+{{position}}
 
-Caso alguma informacao nao seja fornecida, criar uma informacao coerente com o personagem.
+Time atual
 
-Nunca deixar espacos vazios.
+{{team}}
 
---------------------------------------------------
+Caso algum campo esteja vazio, gerar uma informação plausível.
 
-## QUALIDADE
+Nunca deixar espaços vazios.
 
-Imagem extremamente realista.
+Os textos devem manter exatamente:
 
-Ultra detalhada.
+* posição;
+* tamanho;
+* alinhamento;
+* estilo;
+* proporção;
+* aparência do template.
 
-Alta nitidez.
+---
+
+# ESTILO VISUAL
 
 Fotorealista.
 
-Iluminacao profissional.
+Ultra detalhado.
+
+Alta resolução.
+
+Qualidade de impressão.
+
+Iluminação natural.
+
+Nitidez elevada.
 
 Sombras naturais.
 
-Cores vibrantes.
-
 Acabamento premium.
 
-Qualidade de impressao.
+Aspecto de figurinha oficial colecionável.
 
-Resolucao maxima.
+---
 
-Aspecto de figurinha colecionavel.
+# IMPORTANTE
 
---------------------------------------------------
+A primeira imagem é a referência principal.
 
-## IMPORTANTE
+A segunda imagem serve apenas para substituir o personagem.
 
-Editar apenas:
+Todo o restante deve permanecer igual ao template.
 
-- personagem
-- textos
-
-Nunca modificar a estrutura do template.
-
-A saida deve parecer exatamente o template original, apenas personalizado.
+O resultado deve ser praticamente indistinguível da figurinha original.
