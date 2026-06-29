@@ -1,0 +1,195 @@
+Voce recebera DUAS imagens.
+
+Imagem 1:
+Template oficial da figurinha.
+
+Imagem 2:
+Foto do personagem.
+
+Sua tarefa e editar exclusivamente o template recebido.
+
+NUNCA recrie uma nova figurinha.
+
+Sempre utilize o template enviado como base.
+
+Seu objetivo e substituir apenas o personagem e as informacoes variaveis, preservando toda a identidade visual do modelo.
+
+A figurinha final deve parecer um produto oficial de colecao, pronto para impressao.
+
+--------------------------------------------------
+
+## TEMPLATE
+
+Preserve exatamente:
+
+- formato vertical
+- molduras
+- composicao
+- alinhamentos
+- iluminacao do template
+- sombras
+- brilhos
+- efeitos graficos
+- caixas de informacao
+- posicao dos elementos
+- estilo visual
+- paleta de cores
+- texturas
+- bordas
+- fundo
+
+Nunca alterar o layout.
+
+Nunca mover elementos.
+
+Nunca remover detalhes graficos.
+
+Nunca criar um template diferente.
+
+--------------------------------------------------
+
+## PERSONAGEM
+
+Substitua apenas o personagem principal.
+
+Preserve completamente:
+
+- rosto
+- cabelo
+- olhos
+- nariz
+- boca
+- expressao facial
+- idade aparente
+- tom de pele
+- caracteristicas fisicas
+- identidade da pessoa
+
+Nunca criar caricaturas.
+
+Nunca alterar o genero.
+
+Nunca modificar a aparencia.
+
+Caso a foto seja:
+
+- pessoa
+
+- casal
+
+- crianca
+
+- pet
+
+preservar totalmente sua identidade.
+
+--------------------------------------------------
+
+## ENQUADRAMENTO
+
+Centralizar o personagem.
+
+Adaptar automaticamente ao espaco disponivel.
+
+Evitar cortes no rosto.
+
+Caso o template utilize meio corpo ou corpo inteiro, adaptar naturalmente.
+
+--------------------------------------------------
+
+## ROUPA
+
+Caso necessario, adaptar para um uniforme esportivo premium.
+
+O uniforme deve parecer profissional.
+
+Nunca utilizar logotipos protegidos por direitos autorais.
+
+Nunca utilizar escudos oficiais.
+
+Caso existam logotipos no template original, substitui-los por elementos graficos neutros mantendo o mesmo espaco visual.
+
+--------------------------------------------------
+
+## TEXTOS
+
+Atualizar utilizando os valores abaixo.
+
+Nome
+
+{{name}}
+
+Numero
+
+{{number}}
+
+Posicao
+
+{{position}}
+
+Pais
+
+{{country}}
+
+Time
+
+{{team}}
+
+Nascimento
+
+{{birth_date}}
+
+Altura
+
+{{height}}
+
+Peso
+
+{{weight}}
+
+Texto inferior
+
+{{bottom_text}}
+
+Caso alguma informacao nao seja fornecida, criar uma informacao coerente com o personagem.
+
+Nunca deixar espacos vazios.
+
+--------------------------------------------------
+
+## QUALIDADE
+
+Imagem extremamente realista.
+
+Ultra detalhada.
+
+Alta nitidez.
+
+Fotorealista.
+
+Iluminacao profissional.
+
+Sombras naturais.
+
+Cores vibrantes.
+
+Acabamento premium.
+
+Qualidade de impressao.
+
+Resolucao maxima.
+
+Aspecto de figurinha colecionavel.
+
+--------------------------------------------------
+
+## IMPORTANTE
+
+Editar apenas:
+
+- personagem
+- textos
+
+Nunca modificar a estrutura do template.
+
+A saida deve parecer exatamente o template original, apenas personalizado.

@@ -1,8 +1,0 @@
-Create a legendary bronze-themed football sticker from this photo.
-Use bronze foil effects, dynamic framing, and transparent background.
-Name: {{name}}
-Country: {{country}}
-Number: {{number}}
-Position: {{position}}
-Team: {{team}}
-Overall: {{overall}}

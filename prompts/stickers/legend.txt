@@ -1,0 +1,93 @@
+## ESTILO
+
+Esta e uma figurinha LEGEND.
+
+Ela representa a categoria mais rara da colecao.
+
+O personagem deve transmitir grandeza.
+
+Heroismo.
+
+Confianca.
+
+Impacto.
+
+A pose deve parecer marcante.
+
+A iluminacao deve ser cinematografica.
+
+O personagem deve ser o maior destaque visual da figurinha.
+
+Preservar totalmente os efeitos especiais presentes no template.
+
+Preservar brilhos.
+
+Preservar particulas.
+
+Preservar molduras.
+
+Nunca modificar a identidade visual.
+
+--------------------------------------------------
+
+Categoria
+
+{{legend_category}}
+
+Cor predominante
+
+{{legend_color}}
+
+Intensidade dos efeitos
+
+{{legend_effect}}
+
+--------------------------------------------------
+
+Aplicar os efeitos visuais de acordo com a categoria.
+
+Bronze
+
+efeitos discretos
+
+acabamento metalico bronze
+
+brilho leve
+
+Silver
+
+acabamento metalico prata
+
+efeitos moderados
+
+reflexos elegantes
+
+Gold
+
+acabamento metalico ouro
+
+efeitos intensos
+
+brilho premium
+
+Purple
+
+energia roxa
+
+efeitos luminosos
+
+visual extremamente raro
+
+alto impacto visual
+
+--------------------------------------------------
+
+O resultado deve parecer uma figurinha lendaria de colecao.
+
+Extremamente rara.
+
+Visual premium.
+
+Pronta para impressao.
+
+Deve causar impacto imediato ao olhar.

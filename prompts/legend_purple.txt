@@ -1,8 +1,0 @@
-Create a legendary purple-themed football sticker from this photo.
-Use royal purple lighting, mystical accents, and transparent background.
-Name: {{name}}
-Country: {{country}}
-Number: {{number}}
-Position: {{position}}
-Team: {{team}}
-Overall: {{overall}}

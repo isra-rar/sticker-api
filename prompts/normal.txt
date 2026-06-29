@@ -1,8 +1,0 @@
-Transform this user photo into a clean sticker with transparent background.
-Keep the person recognizable and centered.
-Name: {{name}}
-Country: {{country}}
-Number: {{number}}
-Position: {{position}}
-Team: {{team}}
-Overall: {{overall}}
